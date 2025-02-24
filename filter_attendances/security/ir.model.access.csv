@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_attendance_rayka,hr.attendance.rayka,model_hr_attendance,filter_attendances.group_custom_access_rayka,1,0,0,0
+access_hr_attendance_overtime_rayka,hr.attendance.overtime.rayka,model_hr_attendance_overtime,filter_attendances.group_custom_access_rayka,1,0,0,0

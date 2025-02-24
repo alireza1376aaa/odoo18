@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_company_message_forward_form" model="ir.ui.view">
+        <field name="name">company.message.forward.form.view</field>
+        <field name="model">company.message</field>
+        <field name="arch" type="xml">
+            <form string="forward to Message" create='1'>
+                <sheet>
+                    <group>
+                        <field name="forward_user_id" options="{'no_create': True, 'no_quick_create': True, 'no_create_edit': True, 'no_open': True}" />
+                    </group>
+                    <footer>
+                        <button string="Send forward" type="object" name="send_action_forward" class="oe_highlight" />
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record id="action_forward_message" model="ir.actions.act_window">
+        <field name="name">forward Message</field>
+        <field name="res_model">company.message</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_company_message_forward_form"/>
+        <field name="target">new</field>
+        <field name="context">{'default_parent_id': active_id, 'default_message_type': 'reply'}</field>
+    </record>
+
+
+</odoo>

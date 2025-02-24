@@ -1,0 +1,30 @@
+<odoo>
+    <record id="view_attendance_tree_no_create" model="ir.ui.view">
+        <field name="name">hr.attendance.list.no_create</field>
+        <field name="model">hr.attendance</field>
+        <field name="inherit_id" ref="hr_attendance.view_attendance_tree" />
+        <!-- <field name="groups_id"
+            eval="[(6, 0, [ref('filter_attendances.group_custom_access_rayka')])]" /> -->
+        <field name="arch" type="xml">
+            <xpath expr="//list" position="attributes">
+                <attribute name="create">false</attribute>
+                <attribute name="groups">filter_attendances.group_custom_access_rayka</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_attendance_form_no_create" model="ir.ui.view">
+        <field name="name">hr.attendance.form.no_create</field>
+        <field name="model">hr.attendance</field>
+        <field name="inherit_id" ref="hr_attendance.hr_attendance_view_form" />
+        <!-- <field name="groups_id"
+            eval="[(6, 0, [ref('filter_attendances.group_custom_access_rayka')])]" /> -->
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="attributes">
+                <attribute name="create">false</attribute>
+                <attribute name="edit">false</attribute>
+                <attribute name="groups">filter_attendances.group_custom_access_rayka</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

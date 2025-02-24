@@ -1,0 +1,583 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* my_office_automation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-16 07:07+0000\n"
+"PO-Revision-Date: 2025-02-16 07:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_needaction
+msgid "Action Needed"
+msgstr "اقدام مورد نیاز"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_ids
+msgid "Activities"
+msgstr "فعالیت ها"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "دکوراسیون استثنایی فعالیت"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: my_office_automation
+#: model:ir.module.category,description:my_office_automation.module_category_office_rayka
+msgid "Allows you to manage"
+msgstr "به شما امکان مدیریت می دهد"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__child_ids
+msgid "Answers/References"
+msgstr "پاسخ ها / مراجع"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Attachment"
+msgstr "پیوست"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__attachment_ids
+msgid "Attachment files"
+msgstr "فایل های پیوست"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_reply_form
+msgid "Attachments"
+msgstr "پیوست ها"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_forward_form
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_reply_form
+msgid "Cancel"
+msgstr "لغو "
+
+#. module: my_office_automation
+#: model:ir.model,name:my_office_automation.model_company_message
+msgid "Company Automation Messages"
+msgstr "پیام های اتوماسیون شرکت"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Company Message"
+msgstr "پیام شرکت"
+
+#. module: my_office_automation
+#: model:ir.actions.act_window,name:my_office_automation.action_company_message
+#: model:ir.ui.menu,name:my_office_automation.menu_company_message_root
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_list
+msgid "Company Messages"
+msgstr "پیام های شرکت"
+
+#. module: my_office_automation
+#: model:ir.actions.act_window,name:my_office_automation.action_company_message_recive
+msgid "Company Messages Recive"
+msgstr "پیام های شرکت دریافت شد"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message_recipient__recipient_type__cc
+msgid "Copy"
+msgstr "رونوشت"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_list
+msgid "Count of Reply"
+msgstr "تعداد پاسخ"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__create_uid
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__create_date
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__display_name
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message__state__draft
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message_recipient__state__draft
+msgid "Draft"
+msgstr "پیش نویس"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__employee_id
+msgid "Employee"
+msgstr "کارمند"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_follower_ids
+msgid "Followers"
+msgstr "پیروان"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (شریک)"
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message__message_type__forward
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Forward"
+msgstr "فروارد"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__forward_user_id
+msgid "Forward_person"
+msgstr "شخص فروارد شده"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__id
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__id
+msgid "ID"
+msgstr ""
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "نمادی برای نشان دادن یک فعالیت استثنایی."
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر علامت زده شود، پیام‌های جدید به توجه شما نیاز دارند."
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__message_has_error
+#: model:ir.model.fields,help:my_office_automation.field_company_message__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت زده شود، برخی از پیام ها دارای خطای تحویل هستند."
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message_recipient__show_in_copy
+msgid "In CC determines whether the person sees a copy of the message."
+msgstr "در رونوشت تعیین می کند که آیا شخص یک کپی از پیام را می بیند یا خیر."
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__parent_id
+msgid ""
+"In case of reply or forwarding, the original message is kept in this field."
+msgstr "در صورت پاسخ یا فوروارد، اصل پیام در این قسمت نگهداری می شود."
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__is_editable
+msgid "Is Editable"
+msgstr "قابل ویرایش است"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_is_follower
+msgid "Is Follower"
+msgstr "فالوور است"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__write_uid
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__write_date
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message_recipient__recipient_type__receiver
+msgid "Main recipient"
+msgstr "گیرنده اصلی"
+
+#. module: my_office_automation
+#: model_terms:ir.actions.act_window,help:my_office_automation.action_company_message
+#: model_terms:ir.actions.act_window,help:my_office_automation.action_company_message_recive
+msgid "Manage company messages, recipients, and replies."
+msgstr "پیام‌ها، گیرندگان و پاسخ‌های شرکت را مدیریت کنید."
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Massage Text"
+msgstr "متن پیام"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__message_id
+msgid "Message"
+msgstr "پیام"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_type
+msgid "Message Type"
+msgstr "نوع پیام"
+
+#. module: my_office_automation
+#: model:ir.model,name:my_office_automation.model_company_message_recipient
+msgid "Message recipients (original recipient and copy)"
+msgstr "گیرندگان پیام (گیرنده اصلی و کپی)"
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid "Message sent successfully!"
+msgstr "پیام با موفقیت ارسال شد!"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__body
+msgid "Message text"
+msgstr "متن پیام"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_ids
+#: model:ir.ui.menu,name:my_office_automation.menu_company_message
+msgid "Messages"
+msgstr "پیام ها"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message__message_type__new
+msgid "New Message"
+msgstr "پیام جدید"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت فعالیت بعدی"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام های دارای خطای تحویل"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Rayka Company"
+msgstr "شرکت رایکا"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__is_read
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message_recipient__state__read
+msgid "Read"
+msgstr "بخوانید"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__recipient_type
+msgid "Receiver type"
+msgstr "نوع گیرنده"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__recipient_line_ids
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Receivers"
+msgstr "گیرنده ها"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__parent_id
+msgid "Reference message"
+msgstr "پیام مرجع"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Replies"
+msgstr "پاسخ می دهد"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message__message_type__reply
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message__state__reply
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form_resive
+msgid "Reply"
+msgstr "پاسخ "
+
+#. module: my_office_automation
+#: model:ir.actions.act_window,name:my_office_automation.action_reply_message
+msgid "Reply Message"
+msgstr "پیام پاسخ"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_reply_form
+msgid "Reply to Message"
+msgstr "پاسخ به پیام"
+
+#. module: my_office_automation
+#: model:ir.ui.menu,name:my_office_automation.menu_company_message_resive
+msgid "ResiveMessages"
+msgstr "دریافت پیام ها"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__recipient_employe
+msgid "Resiver"
+msgstr "دریافت"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: my_office_automation
+#: model:ir.module.category,name:my_office_automation.module_category_office_rayka
+msgid "Riyka office"
+msgstr "دفتر ریکا"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیامک"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_form
+msgid "Send"
+msgstr "ارسال کنید"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_reply_form
+msgid "Send Reply"
+msgstr "ارسال پاسخ"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_forward_form
+msgid "Send forward"
+msgstr "ارسال به جلو"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__delivery_mode
+msgid "Send mode"
+msgstr "حالت ارسال"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__date_sent
+msgid "Send time"
+msgstr "زمان ارسال کنید"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__sender_id
+msgid "Sender"
+msgstr "فرستنده"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message__state__sent
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message_recipient__state__sent
+msgid "Sent"
+msgstr "ارسال شد"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__show_in_copy
+msgid "Show to recipient of copy"
+msgstr "نمایش به گیرنده کپی"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message_recipient__state
+msgid "State"
+msgstr "حالت"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__state
+msgid "Status"
+msgstr "وضعیت"
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__subject
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_reply_form
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid "Success"
+msgstr "موفقیت"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__target_department_id
+msgid "Target Department"
+msgstr "بخش هدف"
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__target_department_id
+msgid "The department to which the message is intended to be sent."
+msgstr "بخشی که قرار است پیام به آن ارسال شود."
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنا در ثبت."
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_reply_form
+msgid "Type your reply here..."
+msgstr "پاسخ خود را اینجا تایپ کنید..."
+
+#. module: my_office_automation
+#: model:res.groups,name:my_office_automation.group_office_user
+msgid "User"
+msgstr "کاربر"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__visible_recipient_line_ids
+msgid "Visible Recipients"
+msgstr "گیرندگان قابل مشاهده"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های وب سایت"
+
+#. module: my_office_automation
+#: model:ir.model.fields,help:my_office_automation.field_company_message__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات وب سایت"
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid ""
+"When sending to %(department)s department, a copy to the department head "
+"%(dept_head)s is required."
+msgstr "هنگام ارسال به بخش %(department)s، یک کپی به رئیس بخش "
+"%(dept_head)s مورد نیاز است."
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid "You cannot delete a sent message."
+msgstr "شما نمی توانید پیام ارسال شده را حذف کنید."
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid "You cannot modify a sent message."
+msgstr "شما نمی توانید پیام ارسال شده را تغییر دهید."
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid "You must add at least one recipient before sending."
+msgstr "قبل از ارسال باید حداقل یک گیرنده اضافه کنید."
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid "Your Forward Message has been sent successfully!"
+msgstr "پیام فوروارد شما با موفقیت ارسال شد!"
+
+#. module: my_office_automation
+#. odoo-python
+#: code:addons/my_office_automation/models/company_message.py:0
+msgid "Your reply has been sent successfully!"
+msgstr "پاسخ شما با موفقیت ارسال شد!"
+
+#. module: my_office_automation
+#: model:ir.model.fields,field_description:my_office_automation.field_company_message__count_child
+msgid "count_massage"
+msgstr "تعداد پیام"
+
+#. module: my_office_automation
+#: model:ir.actions.act_window,name:my_office_automation.action_forward_message
+msgid "forward Message"
+msgstr "پیام فوروارد"
+
+#. module: my_office_automation
+#: model_terms:ir.ui.view,arch_db:my_office_automation.view_company_message_forward_form
+msgid "forward to Message"
+msgstr "فوروارد به پیام"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message_recipient__delivery_mode__immediate
+msgid "immediate"
+msgstr "فوری"
+
+#. module: my_office_automation
+#: model:ir.model.fields.selection,name:my_office_automation.selection__company_message_recipient__delivery_mode__normal
+msgid "normal"
+msgstr "عادی"

@@ -1,0 +1,29 @@
+<odoo>
+    <record id="approval_custom_for_rayka" model="ir.ui.view">
+        <field name="name">ApprovalRayka</field>
+        <field name="model">approval.category</field>
+        <field name="inherit_id" ref="approvals.approval_category_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='approval_minimum']" position="after">
+                <field name="send_to_person" />
+
+            </xpath>
+        </field>
+    </record>
+
+    <record id="approval_show_for_rayka" model="ir.ui.view">
+        <field name="name">ApprovalRaykashow</field>
+        <field name="model">approval.request</field>
+        <field name="inherit_id" ref="approvals.approval_request_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='required']" position="replace">
+                <field name="required" readonly="1" force_save="1"/>
+            </xpath>
+            <xpath expr="//field[@name='user_id']" position="replace">
+                <field name="user_id" string="Approver" readonly="1" force_save="1"/>
+            </xpath>
+        </field>
+    </record>
+
+
+</odoo>

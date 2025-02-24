@@ -1,0 +1,14 @@
+<odoo>
+
+        <record id="my_office_automation.module_category_office_rayka" model="ir.module.category">
+            <field name="name">Riyka office</field>
+            <field name="description">Allows you to manage</field>
+            <field name="sequence">20</field>
+        </record>
+
+        <record id="group_office_user" model="res.groups">
+            <field name="name">User</field>
+            <field name="category_id" ref="my_office_automation.module_category_office_rayka"/>
+        </record>
+
+</odoo>

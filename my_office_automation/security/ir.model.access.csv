@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_attachment_office_user,ir.attachment access,base.model_ir_attachment,my_office_automation.group_office_user,1,1,1,0
+access_company_message,access.company.message,model_company_message,my_office_automation.group_office_user,1,1,1,1
+access_company_message_recipient,access.company.message.recipient,model_company_message_recipient,my_office_automation.group_office_user,1,1,1,1

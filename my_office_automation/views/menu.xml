@@ -1,0 +1,13 @@
+<odoo>
+
+    <menuitem id="menu_company_message_root" name="Company Messages" sequence="10" web_icon="my_office_automation,static/description/icon.png"/>
+
+    <menuitem id="menu_company_message" name="Messages" parent="menu_company_message_root"
+        action="action_company_message" sequence="20" />
+
+    <menuitem id="menu_company_message_resive" name="ResiveMessages"
+        parent="menu_company_message_root"
+        action="action_company_message_recive" sequence="30" />
+
+
+</odoo>

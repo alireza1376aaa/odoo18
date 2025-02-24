@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_company_message_reply_form" model="ir.ui.view">
+        <field name="name">company.message.reply.form.view</field>
+        <field name="model">company.message</field>
+        <field name="arch" type="xml">
+            <form string="Reply to Message">
+                <sheet>
+                    <group>
+                        <field name="subject" placeholder="Subject" />
+                        <field name="body" widget="html" placeholder="Type your reply here..." />
+                    </group>
+                    <group>
+                        <field name="attachment_ids" widget="many2many_binary" string="Attachments" />
+                    </group>
+                    <footer>
+                        <button string="Send Reply" type="object" name="action_send_reply" class="oe_highlight" />
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record id="action_reply_message" model="ir.actions.act_window">
+        <field name="name">Reply Message</field>
+        <field name="res_model">company.message</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_company_message_reply_form"/>
+        <field name="target">new</field>
+        <field name="context">{'default_parent_id': active_id, 'default_message_type': 'reply'}</field>
+    </record>
+
+
+</odoo>

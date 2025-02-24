@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="my_custom_attechment_rayka" model="ir.actions.act_window">
+        <field name="model">hr.attendance</field>
+        <field name="view_mode">gantt</field>
+        <field name="domain">['|', ('employee_id.user_id', '=', context.get('uid')),
+            ('employee_id.parent_id.user_id', '=', context.get('uid'))]</field>
+        <field name="context">{'create': False, 'edit': False}</field>
+        <field name="groups_id"
+            eval="[(6, 0, [ref('filter_attendances.group_custom_access_rayka')])]" />
+    </record>
+
+    <menuitem id="menu_hr_attendance_view_attendances" name="Overview"
+        parent="menu_hr_attendance_root" sequence="5"
+        groups="filter_attendances.group_custom_access_rayka" action="my_custom_attechment_rayka" />
+
+    <!-- <menuitem id="menu_hr_attendance_view_attendances_management" name="Management"
+    parent="menu_hr_attendance_root" sequence="6" groups="hr_attendance.group_hr_attendance_officer"
+    action="hr_attendance_management_action"/> -->
+
+</odoo>
